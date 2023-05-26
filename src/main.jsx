@@ -1,0 +1,14 @@
+/* eslint-disable no-unused-vars */
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import Card from './Card'
+import 'tachyons'
+import {robots} from './robots'
+import App from './App'
+ReactDOM.createRoot(document.getElementById('root')).render(
+    // <App />
+      <>
+      <App />
+      </>
+)
